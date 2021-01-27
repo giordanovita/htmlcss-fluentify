@@ -1,0 +1,86 @@
+
+/* regole generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.allinea{
+  width: 80%;
+  margin: auto;
+
+}
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.borderline{
+  width: 95%;
+  height: 30px;
+  margin: auto;
+  border-bottom: 1px solid grey;
+
+}
+
+/* regole header */
+
+.jambotron{
+  width: 100%;
+  height: 400px;
+  /* default  */
+  background-color: blue;
+}
+
+
+/* regole main */
+
+/* -first section */
+.subjam{
+  width:100%;
+  height: 100px;
+  /* default */
+  background-color: grey;
+  margin-bottom: 30px;
+}
+
+/* -second section */
+
+.second{
+
+}
+.column{
+  width: calc(100% / 3 - 10px);
+  height: 200px;
+  float: left;
+  /* default */
+  background-color: red;
+}
+
+.middle{
+  margin:0 15px;
+}
+
+/* -third section */
+
+
+.xlcol{
+  width: 50%;
+  height: 300px;
+  width: calc(100% / 2 - 20px);
+  float: left;
+  /* default */
+  background-color: orange;
+}
+.one{
+  margin-right: 20px;
+}
+.two{
+  margin-left: 20px;
+}
+
+.foot{
+  margin-top: 30px;
+}
