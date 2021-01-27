@@ -12,6 +12,7 @@ body{
 }
 header{
   background-color: #0C325A;
+  color:white;
 }
 
 .allinea{
@@ -61,7 +62,7 @@ a:hover{
 }
 
 .act{
-  padding-left: 180px;
+  padding-left: 160px;
 }
 .item{
 display: inline-block;
@@ -70,23 +71,25 @@ margin-right: 10px;
 }
 
 .button{
- display: inline-block;
-
+  display: inline-block;
+  font-size:12px;
   text-align: center;
-  color: white;
-  border: 1px solid white;
-  border-radius: 3px;
+  color:#ffffff;
+  border-radius: 4px;
   padding:6px;
 }
 .login{
   width: 70px;
+  border: 1px solid white;
 
 }
-.piano{
+/* .piano{
   width: 120px;
   background-color: green;
   border: none;
-}
+} */
+
+
 
 .jambotron{
   width: 100%;
@@ -98,10 +101,27 @@ margin-right: 10px;
   background-size: contain;
   background-position:right;
   background-repeat: no-repeat;
-  /* default  */
+  position: relative;
+
 
 }
 
+.title{
+  width: 30%;
+  position: absolute;
+  left:140px;
+  top: 100px;
+  font-size: 38px;
+
+
+}
+
+.piano{
+    background-color:#89c403;
+}
+.altro{
+padding: 15px;
+}
 
 /* regole main */
 
@@ -116,9 +136,6 @@ margin-right: 10px;
 
 /* -second section */
 
-.second{
-
-}
 .column{
   width: calc(100% / 3 - 10px);
   height: 200px;
