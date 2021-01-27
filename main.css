@@ -6,6 +6,14 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Roboto', sans-serif;
+
+}
+header{
+  background-color: #0C325A;
+}
+
 .allinea{
   width: 80%;
   margin: auto;
@@ -15,6 +23,14 @@
   content: "";
   display: table;
   clear: both;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+}
+a:hover{
+  text-decoration: underline;
 }
 
 .borderline{
@@ -26,19 +42,71 @@
 }
 
 /* regole header */
+.navbar{
+  height: 140px;
+
+
+}
+
+.logo{
+  width: 140px;
+  margin-right: 60px;
+  margin-top: 10px;
+  vertical-align: bottom;
+}
+.nav{
+  display: inline-block;
+
+
+}
+
+.act{
+  padding-left: 180px;
+}
+.item{
+display: inline-block;
+list-style-type: none;
+margin-right: 10px;
+}
+
+.button{
+ display: inline-block;
+
+  text-align: center;
+  color: white;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding:6px;
+}
+.login{
+  width: 70px;
+
+}
+.piano{
+  width: 120px;
+  background-color: green;
+  border: none;
+}
 
 .jambotron{
   width: 100%;
   height: 400px;
+  background:linear-gradient(
+        rgba(0, 0, 0, 0.0),
+        rgba(0, 0, 0, 0.0)  ),
+        url(img/background-header.png);
+  background-size: contain;
+  background-position:right;
+  background-repeat: no-repeat;
   /* default  */
-  background-color: blue;
+
 }
 
 
 /* regole main */
 
 /* -first section */
-.subjam{
+.greybar{
   width:100%;
   height: 100px;
   /* default */
