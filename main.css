@@ -38,7 +38,7 @@ a:hover{
   width: 95%;
   height: 30px;
   margin: auto;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #D3D3D3;
 
 }
 
@@ -83,11 +83,6 @@ margin-right: 10px;
   border: 1px solid white;
 
 }
-/* .piano{
-  width: 120px;
-  background-color: green;
-  border: none;
-} */
 
 
 
@@ -140,7 +135,6 @@ padding: 15px;
   height: 50%;
   font-size: 18px;
   font-weight: bold;
-
   padding-top: 25px;
 }
 .minor{
@@ -153,50 +147,151 @@ padding: 15px;
 
 .column{
   width: calc(100% / 3 - 10px);
-  height: 600px;
+  height: 470px;
   float: left;
-  /* default */
-  background-color: red;
+
+
   position: relative;
 }
 
 .middle{
   margin:0 15px;
+
+
 }
 .miniconteiner{
   width: 40%;
-  height: 80px;
+  height: 171px;
   position: absolute;
   top: 0;
   right: 25%;
   left:25%;
 
 }
-.imgup{
-  width: 150px;
 
-  ;
+.left{
+  height: 130px;
+  background-image: url(img/profile.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 18px;
+
 
 }
+.center{
+  width: 47%;
+  background-image: url(img/computer.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.right{
+  background-image: url(img/doc.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.testocolonna{
+  width: 70%;
+  margin: auto;
+  padding-top: 165px;
+  text-align: center;
+  color: grey;
+
+
+}
+.greentext{
+  color: #7CBB02;
+  font-size:18px;
+  font-weight: bold;
+  padding-bottom: 30px;
+  display: block;
+}
+
+
 
 /* -third section */
 
-
+.second{
+  padding-top: 60px;
+}
 .xlcol{
   width: 50%;
-  height: 300px;
+  height: 350px;
   width: calc(100% / 2 - 20px);
   float: left;
-  /* default */
-  background-color: orange;
+
 }
 .one{
-  margin-right: 20px;
+  margin:0 10px;
+  background-image: url(img/mountain.svg);
+  background-size:contain;
+  background-repeat: no-repeat;
 }
 .two{
-  margin-left: 20px;
+  margin:0 10px;
+  padding-left: 140px;
+  text-align: justify;
+  font-size: 20px;
+  font-weight: bold;
+}
+.xltext{
+  font-size: 15px;
+  font-weight: normal;
+  padding-top: 15px;
+  text-align: left;
+  color: grey;
+}
+#test{
+
+  text-decoration: underline;
+  color: blue;
+  font-size: 15px;
+  margin-top: 40px;
+
 }
 
 .foot{
   margin-top: 30px;
+  height: 150px;
+  background-color: #D3D3D3;
+}
+.foottext{
+
+  width: 60%;
+  padding-top: 50px;
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+}
+.form{
+  width: 40%;
+  color: #808080;
+  padding-top: 35px;
+
+
+}
+.foottext, .form{
+  float: left;
+  height: 150px;
+}
+.foot:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.iam{
+  padding-right: 15px;
+}
+.select{
+  width: 150px;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #808080;
+}
+#buttfoot{
+  margin-left: 20px;
+}
+#butthelp{
+  margin-left: 290px;
+  margin-top: 10px;
 }
